@@ -1,0 +1,2 @@
+[build]
+rustflags = ["-C", "link-args=-lc", "-Ctarget-cpu=sandybridge", "-Ctarget-feature=+aes,+sse2,+sse4.1,+ssse3"]
